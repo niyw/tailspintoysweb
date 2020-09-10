@@ -26,6 +26,7 @@ namespace scratch
             services.AddSpaStaticFiles(configuration =>
             {
                 configuration.RootPath = "ClientApp/dist";
+                //
             });
         }
 
